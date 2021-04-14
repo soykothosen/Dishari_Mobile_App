@@ -1,0 +1,56 @@
+name: dishariapp
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.2
+  geolocator: ^5.0.1
+  lite_rolling_switch: ^0.1.1
+  connectivity: ^0.4.2
+  flutter_spinkit: ^3.0.0
+
+
+
+
+
+
+
+dev_dependencies:
+
+
+
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  assets:
+    - imgs/logo.png
+    - imgs/logoa.png
+    - imgs/1.jpg
+    - imgs/2.jpg
+    - imgs/1.png
+    - imgs/2.png
+    - imgs/tlogo.png
+    - imgs/
+  fonts:
+    - family: HindSiliguri
+      fonts:
+        - asset: fonts/HindSiliguri-Bold.ttf
+        - asset: fonts/HindSiliguri-Regular.ttf
+
+
+
+  uses-material-design: true
+
